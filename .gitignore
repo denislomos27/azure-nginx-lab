@@ -1,0 +1,20 @@
+# Fișiere sensibile (chei, token-uri)
+*.pem
+*.key
+*.crt
+.env
+
+# Fișiere temporare și loguri
+*.log
+*.tmp
+*.bak
+*~
+
+# Node.js (dacă folosești vreodată)
+node_modules/
+dist/
+
+# Fișiere de sistem
+.DS_Store
+Thumbs.db
+
