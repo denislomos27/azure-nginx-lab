@@ -43,9 +43,11 @@ sudo systemctl start nginx
 - Creare fisiere proiect
 mkdir azure-nginx-lab
 cd azure-nginx-lab
-echo "<h1>Site-ul meu pe Azure</h1>" > index.html
+echo
+ "<h1>Site-ul meu pe Azure</h1>" > index.html (http://135.236.106.19/)
 
 - Initializare Git
 git init
 git add .
 git commit -m "Initial commit - Nginx site"
+
